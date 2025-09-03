@@ -9,11 +9,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="banner-2__content">
-                        <h1 class="mb-50 mb-xs-40 color-white title-animation">Machinery hiring? We got you</h1>
+                        <h1 class="mb-50 mb-xs-40 color-white title-animation">Your trusted partner for all mining needs.</h1>
                         <p class="mb-80 mb-xs-80 color-white">Find what you are looking for with us</p>
 
                         <div class="rr-btn__wrapper d-flex align-items-sm-center align-items-start flex-column flex-sm-row">
-                            <a href="#" class="rr-btn position-relative overflow-hidden">
+                            <a href="tel:243972329000" class="rr-btn position-relative overflow-hidden">
                                 <div class="panel wow"></div>
                                 <span class="btn-wrap">
                                     <span class="text-one">Get In Touch</span>
@@ -96,9 +96,7 @@
                                 src="assets/imgs/ask-quesiton/heart.png" alt="icon not found" class="img-fluid"> Our
                             Services
                         </h5>
-                        <h2 class="section__title mb-0 title-animation">Committed to providing our clients with the quality,
-                            safety,
-                            versatility and timeliness that the industry demands. </h2>
+                        <h2 class="section__title mb-0 title-animation">You can trust as we offer you the best services. </h2>
                     </div>
                 </div>
             </div>
@@ -114,7 +112,30 @@
                                 <a href="#">
                                     <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-1.png"
                                         alt="icon not found">
-                                    Electricity In Building</a>
+                                    Mining Services</a>
+                            </h4>
+
+                            <p>We provide clients with turnkey solutions that
+                                emphasize engineering expertise, safe, and
+                                high-quality mining infrastructure.</p>
+
+                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="#">Read More <i
+                                    class="fa-solid fa-circle-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="service-2__item">
+                        <a href="#" class="service-2__item-media">
+                            <img class="img-fluid" src="assets/imgs/service-2/service-2.jpg" alt="image not found">
+                        </a>
+
+                        <div class="service-2__item-content">
+                            <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
+                                <a href="#">
+                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-1.png"
+                                        alt="icon not found">
+                                    Building & Freezers electricity</a>
                             </h4>
 
                             <ul>
@@ -130,32 +151,7 @@
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="service-2__item">
-                        <a href="service-details.html" class="service-2__item-media">
-                            <img class="img-fluid" src="assets/imgs/service-2/service-2.jpg" alt="image not found">
-                        </a>
-
-                        <div class="service-2__item-content">
-                            <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
-                                <a href="blog-details.html">
-                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-2.png"
-                                        alt="icon not found">
-                                    Electricity in Freezers</a>
-                            </h4>
-
-                            <ul>
-                                {{-- <li>Your digital marketing sources</li>
-                                <li>Showing the world who you are</li>
-                                <li>Making the world talk about you</li> --}}
-                            </ul>
-
-                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="#">Read More <i
-                                    class="fa-solid fa-circle-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="service-2__item">
-                        <a href="service-details.html" class="service-2__item-media">
+                        <a href="#" class="service-2__item-media">
                             <img class="img-fluid" src="assets/imgs/service-2/service-3.jpg" alt="image not found">
                         </a>
 
