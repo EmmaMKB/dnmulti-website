@@ -106,36 +106,26 @@
             data-background="assets/imgs/footer-2/background.png">
             <div class="container">
                 <div class="row mb-minus-50">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="footer-2__widget footer-2__widget-item-1">
                             <div class="footer-2__logo mb-30 mb-xs-25">
-                                <a href="index.html">
-                                    <img class="img-fluid" src="assets/imgs/logo/logo-white.svg"
+                                <a href="{{ route('home') }}">
+                                    <img class="img-fluid" src="assets/imgs/logo/logo-white.png"
                                         alt="logo not found">
                                 </a>
                             </div>
 
                             <div class="footer-2__content">
-                                <p class="mb-0">It is a long established fact that a reader will be distracted</p>
-                            </div>
-
-                            <div class="footer-2__social mt-30 mt-xs-30">
-                                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://twitter.com/">
-                                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M10.0596 6.77295L15.8879 -0.00195312H14.5068L9.44607 5.8806L5.40411 -0.00195312H0.742188L6.85442 8.89352L0.742188 15.998H2.12338L7.4676 9.78587L11.7362 15.998H16.3981L10.0593 6.77295H10.0596ZM8.16787 8.97189L7.54857 8.0861L2.62104 1.03779H4.74248L8.71905 6.726L9.33834 7.61179L14.5074 15.0056H12.386L8.16787 8.97223V8.97189Z"
-                                            fill="white" />
-                                    </svg>
-                                </a>
-                                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <p class="mb-0">DN Multiservices SARL is a Congolese private owned company that offers
+                                    the supply and hire of industrial equipment, spare parts, electrical equipments,
+                                    purchase of mining concessions and agri food farms, import and export, sale
+                                    agricultural products and much more.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-6">
+                    <div class="col-lg-4 col-6">
                         <div class="footer-2__widget footer-2__widget-item-2">
                             <div class="footer-2__widget-title">
                                 <h4>Services</h4>
@@ -151,7 +141,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-4 col-6">
                         <div class="footer-2__widget footer-2__widget-item-3">
                             <div class="footer-2__widget-title">
                                 <h4>Our Office</h4>
@@ -159,35 +149,12 @@
 
                             <div class="footer-2__link footer-2__link-location">
                                 <ul>
-                                    <li><a href="mailto:debra.holt@example.com"><i class="fa-solid fa-envelope"></i>
-                                            debra.holt@example.com</a></li>
+                                    <li><a href="mailto:info@dnmultiservicesdrc.com"><i class="fa-solid fa-envelope"></i>
+                                            info@dnmultiservicesdrc.com</a></li>
                                     <li><a href="https://maps.app.goo.gl/4XYAPDmpesGnSbsC8"><i
-                                                class="fa-solid fa-location-dot"></i> 3891 Ranchview Dr. Richardson,
-                                            California 62639</a></li>
+                                                class="fa-solid fa-location-dot"></i> 534 Av. Kilela Balanda,
+                                            Q/ Makutano</a></li>
                                 </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-2__widget footer-2__widget-item-4">
-                            <div class="footer-2__widget-title">
-                                <h4>are you ready to start ?</h4>
-                            </div>
-
-                            <div class="footer-2__subscribe-content">
-                                <p class="mb-30 mb-xs-25 color-white">Custom Software Development Tailored Solutions
-                                    for Your Business Custom Software</p>
-
-                                <div class="footer-2__subscribe d-flex mt-30 mt-xs-25">
-                                    <input type="text" placeholder="Enter Email">
-                                    <button type="submit" class="rr-btn rr-btn__theme">
-                                        <span class="btn-wrap">
-                                            <span class="text-one">Contact Us</span>
-                                            <span class="text-two">Contact Us</span>
-                                        </span>
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -198,19 +165,19 @@
                 <div class="container">
                     <div class="footer-2__bottom">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-4">
                                 <div class="footer-2__copyright text-lg-start text-center">
-                                    <p class="mb-0">© <a href="index.html">Medilix</a> 2024 | All Rights Reserved
+                                    <p class="mb-0">© <a href="{{ route('home') }}">DN MultiServices SARL</a> {{ date('Y') }} | All Rights Reserved
                                     </p>
                                 </div>
                             </div>
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <div class="footer-2__copyright-menu">
                                     <ul>
-                                        <li><a href="about-us.html">Trams & Condition</a></li>
-                                        <li><a href="about-us.html">Privacy Policy</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li>RCCM: CD/LSH/RCCM/23-B-00487</li>
+                                        <li>ID. NAT: 05-F4300-N19040J</li>
+                                        <li>IMPOT: A0707219F</li>
                                     </ul>
                                 </div>
                             </div>
