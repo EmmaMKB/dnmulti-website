@@ -9,7 +9,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="banner-2__content">
-                        <h1 class="mb-50 mb-xs-40 color-white title-animation">Your trusted partner for all mining needs.</h1>
+                        <h1 class="mb-50 mb-xs-40 color-white title-animation">Your trusted partner for all mining needs.
+                        </h1>
                         <p class="mb-80 mb-xs-80 color-white">Find what you are looking for with us</p>
 
                         <div class="rr-btn__wrapper d-flex align-items-sm-center align-items-start flex-column flex-sm-row">
@@ -96,7 +97,8 @@
                                 src="assets/imgs/ask-quesiton/heart.png" alt="icon not found" class="img-fluid"> Our
                             Services
                         </h5>
-                        <h2 class="section__title mb-0 title-animation">You can trust as we offer you the best services. </h2>
+                        <h2 class="section__title mb-0 title-animation">You can trust as we offer you the best services.
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -178,4 +180,78 @@
         </div>
     </section>
     <!-- services 4 end -->
+    <!-- take-appointment area start -->
+    <section class="take-appointment section-space overflow-hidden">
+        <div class="container">
+            <div class="take-appointment__container-shape"
+                data-background="assets/imgs/take-appointment/container-shape.png">
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section__title-wrapper take-appointment__content">
+                        <h5 class="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img
+                                src="assets/imgs/ask-quesiton/heart.png" alt="icon not found" class="img-fluid">Have a specific need?</h5>
+                        <h2 class="section__title mb-20 mb-xs-15 title-animation">Get in touch with us.</h2>
+
+                        <p class="mb-30 mb-xs-25">Looking for reliable and efficient solutions
+                            for your mining or business needs? Get in touch with our experts
+                            to learn more about our services and get a free consultation. </p>
+
+                        <div class="take-appointment__call d-flex align-items-center">
+                            <div class="take-appointment__call-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="take-appointment__call-text">
+                                <p class="mb-0">Requesting A Call:</p>
+                                <h5 class="mb-0"><a href="tel:243972329000">+243 972 329 000</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="take-appointment__form mt-md-50 mt-sm-40 mt-xs-40">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="take-appointment__form-input">
+                                    <label for="name">Your name</label>
+                                    <div class="input-wrapper">
+                                        <input name="name" id="name" required type="text" placeholder="Your name...">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="take-appointment__form-input">
+                                    <label for="email">Your Email</label>
+                                    <div class="input-wrapper">
+                                        <input name="email" id="email" required type="text" placeholder="Your email...">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="take-appointment__form-input">
+                                    <label for="phone">Your message</label>
+                                    <div class="input-wrapper">
+                                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="rr-btn rr-btn__primary-color mt-10 mt-xs-10">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Send your message <i class="fa-solid fa-plus"></i></span>
+                                        <span class="text-two">Send your message <i class="fa-solid fa-plus"></i></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- take-appointment area end -->
 @endsection
