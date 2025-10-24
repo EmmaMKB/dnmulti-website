@@ -57,8 +57,8 @@
                                     <nav id="mobile-menu">
                                         <ul>
                                             <li><a href="{{ route('home') }}">Home</a></li>
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Our Services</a></li>
+                                            <li><a href="#about">About Us</a></li>
+                                            <li><a href="#services">Our Services</a></li>
                                             <li><a href="#">Our Team</a></li>
                                         </ul>
                                     </nav>

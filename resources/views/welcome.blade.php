@@ -45,7 +45,7 @@
     <!-- Banner area end -->
 
     <!--about-us-2 start -->
-    <section class="about-us-2 about-us-2__space">
+    <section id="about" class="about-us-2 about-us-2__space">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
@@ -135,7 +135,7 @@
                         <div class="service-2__item-content">
                             <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
                                 <a href="{{ route('services.building-electricity') }}">
-                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-1.png"
+                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-2.png"
                                         alt="icon not found">
                                     Electricity in building</a>
                             </h4>
@@ -158,7 +158,7 @@
                         <div class="service-2__item-content">
                             <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
                                 <a href="{{ route('services.freezers-electricity') }}">
-                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-1.png"
+                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-4.png"
                                         alt="icon not found">
                                     Electricity in freezers</a>
                             </h4>
@@ -199,6 +199,7 @@
         </div>
     </section>
     <!-- services 4 end -->
+
     <!-- take-appointment area start -->
     <section class="take-appointment section-space overflow-hidden">
         <div class="container">
