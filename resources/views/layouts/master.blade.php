@@ -45,7 +45,7 @@
                     <div class="header__main">
                         <div class="header__left d-flex align-items-center">
                             <div class="header__logo">
-                                <a href="index.html">
+                                <a href="{{ route('home') }}">
                                     <div class="logo">
                                         <img src="{{ asset('assets/imgs/logo/logo-two-color.png') }}" alt="logo not found">
                                     </div>
@@ -56,9 +56,9 @@
                                 <div class="main-menu main-menu-2">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Our Services</a></li>
+                                            <li><a href="{{ route('home') }}">Home</a></li>
+                                            <li><a href="#about">About Us</a></li>
+                                            <li><a href="#services">Our Services</a></li>
                                             <li><a href="#">Our Team</a></li>
                                         </ul>
                                     </nav>

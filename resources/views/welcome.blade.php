@@ -9,7 +9,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="banner-2__content">
-                        <h1 class="mb-50 mb-xs-40 color-white title-animation">Your trusted partner for all mining needs.</h1>
+                        <h1 class="mb-50 mb-xs-40 color-white title-animation">Your trusted partner for all mining needs.
+                        </h1>
                         <p class="mb-80 mb-xs-80 color-white">Find what you are looking for with us</p>
 
                         <div class="rr-btn__wrapper d-flex align-items-sm-center align-items-start flex-column flex-sm-row">
@@ -21,7 +22,7 @@
                                 </span>
                             </a>
 
-                            <a href="#" class="readmore">Our Services
+                            <a href="#services" class="readmore">Our Services
                                 <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -44,7 +45,7 @@
     <!-- Banner area end -->
 
     <!--about-us-2 start -->
-    <section class="about-us-2 about-us-2__space">
+    <section id="about" class="about-us-2 about-us-2__space">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
@@ -87,7 +88,7 @@
     </section>
     <!--about-us-2 end -->
     <!-- services 4 start -->
-    <section class="service-4 section-space">
+    <section id="services" class="service-4 section-space">
         <div class="container">
             <div class="row mb-60 mb-xs-50 align-items-lg-end align-items-center">
                 <div class="col-lg-6">
@@ -96,20 +97,21 @@
                                 src="assets/imgs/ask-quesiton/heart.png" alt="icon not found" class="img-fluid"> Our
                             Services
                         </h5>
-                        <h2 class="section__title mb-0 title-animation">You can trust as we offer you the best services. </h2>
+                        <h2 class="section__title mb-0 title-animation">You can trust as we offer you the best services.
+                        </h2>
                     </div>
                 </div>
             </div>
             <div class="row mb-minus-60">
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="service-2__item">
                         <a href="#" class="service-2__item-media">
-                            <img class="img-fluid" src="assets/imgs/service-2/service-1.jpg" alt="image not found">
+                            <img class="img-fluid" src="{{ asset('assets/imgs/service-2/service-1.jpg') }}" alt="image not found">
                         </a>
 
                         <div class="service-2__item-content">
                             <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
-                                <a href="#">
+                                <a href="{{ route('services.mining') }}">
                                     <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-1.png"
                                         alt="icon not found">
                                     Mining Services</a>
@@ -119,39 +121,60 @@
                                 emphasize engineering expertise, safe, and
                                 high-quality mining infrastructure.</p>
 
-                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="#">Read More <i
+                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="{{ route('services.mining') }}">Read More <i
                                     class="fa-solid fa-circle-plus"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="service-2__item">
                         <a href="#" class="service-2__item-media">
-                            <img class="img-fluid" src="assets/imgs/service-2/service-2.jpg" alt="image not found">
+                            <img class="img-fluid" src="{{ asset('assets/imgs/service-2/service-2.jpg') }}" alt="image not found">
                         </a>
 
                         <div class="service-2__item-content">
                             <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
-                                <a href="#">
-                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-1.png"
+                                <a href="{{ route('services.building-electricity') }}">
+                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-2.png"
                                         alt="icon not found">
-                                    Building & Freezers electricity</a>
+                                    Electricity in building</a>
                             </h4>
 
-                            <ul>
-                                <li>Wiring Systems</li>
-                                <li>Resistance and Ohm's law</li>
-                                <li>Safety Measures</li>
-                            </ul>
+                            <p class="mb-30">We specialize in delivering comprehensive electrical
+                                solutions for buildings, ensuring
+                                optimal performance and energy efficiency.</p>
 
-                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="#">Read More <i
+                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="{{ route('services.building-electricity') }}">Read More <i
                                     class="fa-solid fa-circle-plus"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="service-2__item">
                         <a href="#" class="service-2__item-media">
+                            <img class="img-fluid" src="{{ asset('assets/imgs/service-2/service-4.jpg') }}" alt="image not found">
+                        </a>
+
+                        <div class="service-2__item-content">
+                            <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
+                                <a href="{{ route('services.freezers-electricity') }}">
+                                    <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-4.png"
+                                        alt="icon not found">
+                                    Electricity in freezers</a>
+                            </h4>
+
+                            <p class="mb-30">We provide specialized electrical services
+                                for freezers, ensuring optimal performance
+                                and energy efficiency.</p>
+
+                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="{{ route('services.freezers-electricity') }}">Read More <i
+                                    class="fa-solid fa-circle-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="service-2__item">
+                        <a href="{{ route('services.maintenance') }}" class="service-2__item-media">
                             <img class="img-fluid" src="assets/imgs/service-2/service-3.jpg" alt="image not found">
                         </a>
 
@@ -162,14 +185,12 @@
                                         alt="icon not found">Filters, Coolers and pumps maintenance</a>
                             </h4>
 
-                            <ul>
-                                <li>Filter cleaning and maintenance</li>
-                                <li>Leak Detection</li>
-                                <li>Thermostat accuracy check</li>
-                                <li>Diagnosis and repair</li>
-                            </ul>
+                            <p class="mb-30">
+                                We provide filters, coolers and pumps maintenance to maintain system performance, and
+                            ensure healthy indoor air quality.
+                            </p>
 
-                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="#">Read More <i
+                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="{{ route('services.maintenance') }}">Read More <i
                                     class="fa-solid fa-circle-plus"></i></a>
                         </div>
                     </div>
@@ -178,4 +199,79 @@
         </div>
     </section>
     <!-- services 4 end -->
+
+    <!-- take-appointment area start -->
+    <section class="take-appointment section-space overflow-hidden">
+        <div class="container">
+            <div class="take-appointment__container-shape"
+                data-background="assets/imgs/take-appointment/container-shape.png">
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section__title-wrapper take-appointment__content">
+                        <h5 class="section__subtitle color-theme-primary mb-15 mb-xs-10 title-animation"><img
+                                src="assets/imgs/ask-quesiton/heart.png" alt="icon not found" class="img-fluid">Have a specific need?</h5>
+                        <h2 class="section__title mb-20 mb-xs-15 title-animation">Get in touch with us.</h2>
+
+                        <p class="mb-30 mb-xs-25">Looking for reliable and efficient solutions
+                            for your mining or business needs? Get in touch with our experts
+                            to learn more about our services and get a free consultation. </p>
+
+                        <div class="take-appointment__call d-flex align-items-center">
+                            <div class="take-appointment__call-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="take-appointment__call-text">
+                                <p class="mb-0">Requesting A Call:</p>
+                                <h5 class="mb-0"><a href="tel:243972329000">+243 972 329 000</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="take-appointment__form mt-md-50 mt-sm-40 mt-xs-40">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="take-appointment__form-input">
+                                    <label for="name">Your name</label>
+                                    <div class="input-wrapper">
+                                        <input name="name" id="name" required type="text" placeholder="Your name...">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="take-appointment__form-input">
+                                    <label for="email">Your Email</label>
+                                    <div class="input-wrapper">
+                                        <input name="email" id="email" required type="text" placeholder="Your email...">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="take-appointment__form-input">
+                                    <label for="phone">Your message</label>
+                                    <div class="input-wrapper">
+                                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="rr-btn rr-btn__primary-color mt-10 mt-xs-10">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Send your message <i class="fa-solid fa-plus"></i></span>
+                                        <span class="text-two">Send your message <i class="fa-solid fa-plus"></i></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- take-appointment area end -->
 @endsection
