@@ -22,7 +22,7 @@
                                 </span>
                             </a>
 
-                            <a href="#" class="readmore">Our Services
+                            <a href="#services" class="readmore">Our Services
                                 <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -88,7 +88,7 @@
     </section>
     <!--about-us-2 end -->
     <!-- services 4 start -->
-    <section class="service-4 section-space">
+    <section id="services" class="service-4 section-space">
         <div class="container">
             <div class="row mb-60 mb-xs-50 align-items-lg-end align-items-center">
                 <div class="col-lg-6">
@@ -103,15 +103,15 @@
                 </div>
             </div>
             <div class="row mb-minus-60">
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="service-2__item">
                         <a href="#" class="service-2__item-media">
-                            <img class="img-fluid" src="assets/imgs/service-2/service-1.jpg" alt="image not found">
+                            <img class="img-fluid" src="{{ asset('assets/imgs/service-2/service-1.jpg') }}" alt="image not found">
                         </a>
 
                         <div class="service-2__item-content">
                             <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
-                                <a href="#">
+                                <a href="{{ route('services.mining') }}">
                                     <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-1.png"
                                         alt="icon not found">
                                     Mining Services</a>
@@ -121,12 +121,12 @@
                                 emphasize engineering expertise, safe, and
                                 high-quality mining infrastructure.</p>
 
-                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="#">Read More <i
+                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="{{ route('services.mining') }}">Read More <i
                                     class="fa-solid fa-circle-plus"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="service-2__item">
                         <a href="#" class="service-2__item-media">
                             <img class="img-fluid" src="assets/imgs/service-2/service-2.jpg" alt="image not found">

@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+
+Route::get('/services/mining', function () {
+    return view('services.mining');
+})->name('services.mining');
