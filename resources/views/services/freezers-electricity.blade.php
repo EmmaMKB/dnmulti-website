@@ -7,13 +7,13 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
-                        <h2 class="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">Electricity In Building</h2>
+                        <h2 class="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">Electricity In Freezers</h2>
 
                         <div class="breadcrumb__menu">
                             <nav>
                                 <ul>
                                     <li><span><a href="{{ route('home') }}">Home</a></span></li>
-                                    <li class="active"><span>Electricity In Building</span></li>
+                                    <li class="active"><span>Electricity In Freezers</span></li>
                                 </ul>
                             </nav>
                         </div>
@@ -52,38 +52,28 @@
                 <div class="col-xl-8">
                     <div class="service-details__content">
                         <div class="service-details__content-media mb-20">
-                            <img src="{{ asset('assets/imgs/service-details/service-details-2.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/imgs/service-details/service-details-3.jpg') }}" class="img-fluid"
                                 alt="img not found">
                         </div>
 
-                        <h2 class="title-animation mb-20">Electricity in Building </h2>
+                        <h2 class="title-animation mb-20">Electricity in Freezers</h2>
 
-                        <p class="mb-20">Electricity is the lifeblood of
-                            any modern building, essential for everything
-                            from lighting and climate control to powering
-                            critical systems and occupant technology.
-                            Effective electrical building services are
-                            fundamental to a building's function, safety,
-                            and efficiency, ensuring a comfortable, productive,
-                            and secure environment. These services encompass the
-                            entire electrical infrastructure, from the main utility
-                            connection point to every outlet and switch.</p>
+                        <p class="mb-20">Commercial freezers are essential for
+                            preserving perishable goods. Managing their energy consumption
+                        is crucial for cost control</p>
 
                         <ul class="mb-40">
                             <li><span><i class="fa-solid fa-check"></i></span>
-                                <h5>Power Distribution and Wiring</h5>
+                                <h5>Temperature settings</h5>
                             </li>
                             <li><span><i class="fa-solid fa-check"></i></span>
-                                <h5>Lighting Systems</h5>
+                                <h5>Defrosting freezers</h5>
                             </li>
                             <li><span><i class="fa-solid fa-check"></i></span>
-                                <h5>Essential Power Systems</h5>
+                                <h5>Freezers maintenance</h5>
                             </li>
                             <li><span><i class="fa-solid fa-check"></i></span>
-                                <h5>Auxiliary and special systems</h5>
-                            </li>
-                            <li><span><i class="fa-solid fa-check"></i></span>
-                                <h5>Energy Management and Efficiency</h5>
+                                <h5>Energy-efficient LED lighting</h5>
                             </li>
                         </ul>
                     </div>

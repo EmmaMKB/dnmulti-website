@@ -24,3 +24,7 @@ Route::get('/services/mining', function () {
 Route::get('/services/building-electricity', function () {
     return view('services.building-electricity');
 })->name('services.building-electricity');
+
+Route::get('/services/freezers-electricity', function () {
+    return view('services.freezers-electricity');
+})->name('services.freezers-electricity');
