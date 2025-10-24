@@ -30,9 +30,10 @@
                 <div class="col-xl-4">
                     <div class="sidebar sidebar-rr-sticky">
                         <div class="sidebar__widget-service mb-30">
-                            <a href="service-details.html">Mining Services service <i class="fa-solid fa-plus"></i></a>
-                            <a href="service-details.html">Building & Freezers Electricity <i class="fa-solid fa-plus"></i></a>
-                            <a href="service-details.html">Filters, Coolers and pump maintenance <i class="fa-solid fa-plus"></i></a>
+                            <a href="{{ route('services.mining') }}">Mining Services service <i class="fa-solid fa-plus"></i></a>
+                            <a href="{{ route('services.building-electricity') }}">Building Electricity <i class="fa-solid fa-plus"></i></a>
+                            <a href="{{ route('services.freezers-electricity') }}">Freezers Electricity <i class="fa-solid fa-plus"></i></a>
+                            <a href="{{ route('services.maintenance') }}">Filters, Coolers and pump maintenance <i class="fa-solid fa-plus"></i></a>
                         </div>
 
                         <div class="sidebar__widget-contact__service text-center">

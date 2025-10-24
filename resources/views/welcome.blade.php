@@ -174,7 +174,7 @@
                 </div>
                 <div class="col-xl-3 col-md-6">
                     <div class="service-2__item">
-                        <a href="#" class="service-2__item-media">
+                        <a href="{{ route('services.maintenance') }}" class="service-2__item-media">
                             <img class="img-fluid" src="assets/imgs/service-2/service-3.jpg" alt="image not found">
                         </a>
 
@@ -185,14 +185,12 @@
                                         alt="icon not found">Filters, Coolers and pumps maintenance</a>
                             </h4>
 
-                            <ul>
-                                <li>Filter cleaning and maintenance</li>
-                                <li>Leak Detection</li>
-                                <li>Thermostat accuracy check</li>
-                                <li>Diagnosis and repair</li>
-                            </ul>
+                            <p class="mb-30">
+                                We provide filters, coolers and pumps maintenance to maintain system performance, and
+                            ensure healthy indoor air quality.
+                            </p>
 
-                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="#">Read More <i
+                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="{{ route('services.maintenance') }}">Read More <i
                                     class="fa-solid fa-circle-plus"></i></a>
                         </div>
                     </div>
