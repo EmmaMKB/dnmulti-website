@@ -129,24 +129,22 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="service-2__item">
                         <a href="#" class="service-2__item-media">
-                            <img class="img-fluid" src="assets/imgs/service-2/service-2.jpg" alt="image not found">
+                            <img class="img-fluid" src="{{ asset('assets/imgs/service-2/service-2.jpg') }}" alt="image not found">
                         </a>
 
                         <div class="service-2__item-content">
                             <h4 class="mb-20 mb-xs-15 d-flex align-items-start">
-                                <a href="#">
+                                <a href="{{ route('services.building-electricity') }}">
                                     <img class="img-fluid mr-15" src="assets/imgs/service-2/service-icon-1.png"
                                         alt="icon not found">
-                                    Building & Freezers electricity</a>
+                                    Electricity in building</a>
                             </h4>
 
-                            <ul>
-                                <li>Wiring Systems</li>
-                                <li>Resistance and Ohm's law</li>
-                                <li>Safety Measures</li>
-                            </ul>
+                            <p class="mb-30">We specialize in delivering comprehensive electrical
+                                solutions for buildings, ensuring
+                                optimal performance and energy efficiency.</p>
 
-                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="#">Read More <i
+                            <a class="rr-a-btn mt-30 mt-xs-25 d-block" href="{{ route('services.building-electricity') }}">Read More <i
                                     class="fa-solid fa-circle-plus"></i></a>
                         </div>
                     </div>

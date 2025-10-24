@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/services/mining', function () {
     return view('services.mining');
 })->name('services.mining');
+
+Route::get('/services/building-electricity', function () {
+    return view('services.building-electricity');
+})->name('services.building-electricity');
